@@ -644,7 +644,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: '6',
     year: '2022',
-    title: '100+ Projects Delivered',
+    title: '20+ Projects Delivered',
     description: 'Reached the milestone of delivering 100+ successful projects across various industries.',
   },
   {

@@ -1,7 +1,6 @@
 import { AboutHero } from '@/components/about/AboutHero';
 import { CompanyStory } from '@/components/about/CompanyStory';
 import { Values } from '@/components/about/Values';
-// import { TeamSection } from '@/components/about/TeamSection';
 
 export const metadata = {
   title: 'About Us - 5Xcodes',
@@ -27,7 +26,6 @@ export default function AboutPage() {
       <AboutHero />
       <CompanyStory />
       <Values />
-      {/* <TeamSection /> */}
     </main>
   );
 }

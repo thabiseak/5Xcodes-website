@@ -20,7 +20,7 @@ export function PortfolioHero() {
   const stats = [
     { icon: BriefcaseIcon, number: '100+', label: 'Projects Completed' },
     { icon: ChartBarIcon, number: '99%', label: 'Client Satisfaction' },
-    { icon: RocketLaunchIcon, number: '50+', label: 'Industries Served' },
+    { icon: RocketLaunchIcon, number: '', label: 'Industries Served' },
     { icon: ShieldCheckIcon, number: '24/7', label: 'Support Available' },
   ];
 

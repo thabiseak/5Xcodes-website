@@ -24,12 +24,7 @@ const footerNavigation = {
   ],
   company: [
     { name: 'About Us', href: '/about' },
-    { name: 'Portfolio', href: '/portfolio' },
     { name: 'Contact', href: '/contact' },
-  ],
-  resources: [
-    { name: 'Blog', href: '/blog' },
-    { name: 'Support', href: '/contact' },
   ],
   legal: [
     { name: 'Privacy Policy', href: '/privacy' },
@@ -50,7 +45,7 @@ export default function Footer() {
       <div className="relative">
         {/* Main Footer Content */}
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
               <motion.div
@@ -161,16 +156,16 @@ export default function Footer() {
               </ul>
             </motion.div>
 
-            {/* Resources */}
+            {/* Legal */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Resources</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Legal</h3>
               <ul className="space-y-3">
-                {footerNavigation.resources.map((item) => (
+                {footerNavigation.legal.map((item) => (
                   <li key={item.name}>
                     <Link
                       href={item.href}
@@ -224,7 +219,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
                 <p className="text-gray-400 text-sm">
-                  © 2024 5Xcodes. All rights reserved.
+                  © 2025 5Xcodes. All rights reserved.
                 </p>
                 <div className="flex space-x-6">
                   {footerNavigation.legal.map((item) => (

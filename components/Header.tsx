@@ -22,18 +22,8 @@ const navigation = [
       { name: 'Mobile Apps', href: '/services/mobile-apps' },
     ]
   },
-  { 
-    name: 'Products', 
-    href: '/products',
-    children: [
-      { name: 'SaaS Tools', href: '/products/saas-tools' },
-      { name: 'Analytics Platform', href: '/products/analytics' },
-      { name: 'Enterprise Solutions', href: '/products/enterprise' },
-    ]
-  },
-  // { name: 'Portfolio', href: '/portfolio' },
+  { name: 'Products', href: '/products' },
   { name: 'About', href: '/about' },
-  // { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
 ];
 

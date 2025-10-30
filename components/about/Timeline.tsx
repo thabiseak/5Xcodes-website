@@ -13,42 +13,42 @@ import {
 
 const timelineEvents = [
   {
-    year: '2019',
+    year: '2022 February',
     title: 'The Foundation',
     description: '5Xcodes was founded with a vision to democratize access to cutting-edge technology and accelerate digital transformation.',
     icon: RocketLaunchIcon,
     color: 'from-blue-500 to-cyan-500',
   },
   {
-    year: '2020',
+    year: '2022 December',
     title: 'First Major Success',
     description: 'Delivered our first enterprise solution, helping a Fortune 500 company reduce operational costs by 40%.',
     icon: TrophyIcon,
     color: 'from-green-500 to-emerald-500',
   },
   {
-    year: '2021',
+    year: '2023 May',
     title: 'Team Expansion',
     description: 'Grew our team to 25+ experts and expanded our service offerings to include AI and machine learning solutions.',
     icon: UsersIcon,
     color: 'from-purple-500 to-pink-500',
   },
   {
-    year: '2022',
+    year: '2023 October',
     title: 'Global Reach',
     description: 'Expanded internationally, serving clients across 10 countries and establishing partnerships with leading tech companies.',
     icon: GlobeAltIcon,
     color: 'from-orange-500 to-red-500',
   },
   {
-    year: '2023',
+    year: '2024 March',
     title: 'AI Innovation',
     description: 'Pioneered breakthrough AI solutions that revolutionized how businesses approach data analysis and automation.',
     icon: LightBulbIcon,
     color: 'from-indigo-500 to-purple-500',
   },
   {
-    year: '2024',
+    year: '2025 August',
     title: 'Future Vision',
     description: 'Continuing to push boundaries with cutting-edge technologies and expanding our impact on global digital transformation.',
     icon: HeartIcon,
@@ -167,15 +167,15 @@ export function Timeline() {
             </p>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">500+</div>
+                <div className="text-4xl font-bold text-primary mb-2">20+</div>
                 <div className="text-slate-600 dark:text-slate-400">Projects by 2025</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">50+</div>
+                <div className="text-4xl font-bold text-primary mb-2">10+</div>
                 <div className="text-slate-600 dark:text-slate-400">Countries</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">100+</div>
+                <div className="text-4xl font-bold text-primary mb-2">10+</div>
                 <div className="text-slate-600 dark:text-slate-400">Team Members</div>
               </div>
             </div>

@@ -195,7 +195,7 @@ export function Values() {
               </div>
               <div>
                 <div className="text-3xl font-bold bg-gradient-to-r from-electric-blue to-neon-purple bg-clip-text text-transparent mb-2">
-                  50+
+                  10+
                 </div>
                 <div className="text-gray-600 font-medium">
                   Team Members Worldwide

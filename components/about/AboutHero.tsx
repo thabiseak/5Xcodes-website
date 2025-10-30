@@ -7,13 +7,13 @@ import { RocketLaunchIcon, UsersIcon, LightBulbIcon } from '@heroicons/react/24/
 const stats = [
   {
     icon: RocketLaunchIcon,
-    number: '500+',
+    number: '20+',
     label: 'Projects Delivered',
     description: 'Successfully completed projects across various industries'
   },
   {
     icon: UsersIcon,
-    number: '200+',
+    number: '15+',
     label: 'Happy Clients',
     description: 'Satisfied clients who trust us with their digital transformation'
   },

@@ -29,7 +29,7 @@ const timeline = [
   {
     year: '2022',
     title: 'Rapid Growth',
-    description: 'Expanded our team and services, becoming a trusted partner for Fortune 500 companies worldwide.',
+    description: 'Expanded our team and services, becoming a trusted partner for companies worldwide.',
     icon: ChartBarIcon,
     color: 'from-green-500 to-emerald-500'
   },
