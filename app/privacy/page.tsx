@@ -92,8 +92,8 @@ export default function PrivacyPage() {
               <div className="mt-4 p-4 bg-gray-50 rounded-lg">
                 <p className="text-gray-700">
                   <strong>Email:</strong> privacy@5xcodes.com<br />
-                  <strong>Phone:</strong> +1 (555) 123-4567<br />
-                  <strong>Address:</strong> 123 Innovation Street, San Francisco, CA 94105
+                  <strong>Phone:</strong> +94 76 895 4797<br />
+                  <strong>Address:</strong> Jaffna, Sri Lanka
                 </p>
               </div>
             </section>

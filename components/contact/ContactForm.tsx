@@ -90,34 +90,34 @@ export function ContactForm() {
   };
 
   return (
-    <section ref={ref} className="py-24 bg-white">
+    <section ref={ref} className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-4 sm:mb-6 px-2">
             <span className="bg-gradient-to-r from-deep-blue to-electric-blue bg-clip-text text-transparent">
               Start Your Project
             </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Tell us about your project and we'll get back to you within 24 hours 
             with a detailed proposal and timeline.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16">
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="bg-white rounded-2xl p-8 shadow-glass border border-white/20"
+            className="bg-white rounded-2xl p-6 sm:p-8 shadow-glass border border-white/20"
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
               Project Details
             </h3>
 
@@ -125,13 +125,13 @@ export function ContactForm() {
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="text-center py-12"
+                className="text-center py-8 sm:py-12"
               >
-                <CheckCircleIcon className="w-16 h-16 text-green-500 mx-auto mb-4" />
-                <h4 className="text-2xl font-bold text-gray-900 mb-2">
+                <CheckCircleIcon className="w-12 h-12 sm:w-16 sm:h-16 text-green-500 mx-auto mb-3 sm:mb-4" />
+                <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
                   Thank You!
                 </h4>
-                <p className="text-gray-600 mb-6">
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 px-4">
                   We've received your message and will get back to you within 24 hours.
                 </p>
                 <button
@@ -148,17 +148,17 @@ export function ContactForm() {
                       message: ''
                     });
                   }}
-                  className="px-6 py-3 bg-gradient-to-r from-electric-blue to-neon-purple text-white font-semibold rounded-xl hover:shadow-neon transition-all duration-300"
+                  className="px-5 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-electric-blue to-neon-purple text-white text-sm sm:text-base font-semibold rounded-xl hover:shadow-neon transition-all duration-300"
                 >
                   Send Another Message
                 </button>
               </motion.div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
                 {/* Personal Information */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       Full Name *
                     </label>
                     <input
@@ -168,12 +168,12 @@ export function ContactForm() {
                       value={formData.name}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                       placeholder="Sivakumar Sivanajamoorthy"
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       Email Address *
                     </label>
                     <input
@@ -183,15 +183,15 @@ export function ContactForm() {
                       value={formData.email}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                       placeholder="sivakumar@company.com"
                     />
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
-                    <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="company" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       Company
                     </label>
                     <input
@@ -200,12 +200,12 @@ export function ContactForm() {
                       name="company"
                       value={formData.company}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                       placeholder="Your Company"
                     />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="phone" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       Phone Number
                     </label>
                     <input
@@ -214,7 +214,7 @@ export function ContactForm() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                       placeholder="+1 (555) 123-4567"
                     />
                   </div>
@@ -222,7 +222,7 @@ export function ContactForm() {
 
                 {/* Project Information */}
                 <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="service" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                     Service Needed *
                   </label>
                   <select
@@ -231,7 +231,7 @@ export function ContactForm() {
                     value={formData.service}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                   >
                     <option value="">Select a service</option>
                     {services.map((service) => (
@@ -242,9 +242,9 @@ export function ContactForm() {
                   </select>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
-                    <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="budget" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       Project Budget
                     </label>
                     <select
@@ -252,7 +252,7 @@ export function ContactForm() {
                       name="budget"
                       value={formData.budget}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                     >
                       <option value="">Select budget range</option>
                       {budgets.map((budget) => (
@@ -263,7 +263,7 @@ export function ContactForm() {
                     </select>
                   </div>
                   <div>
-                    <label htmlFor="timeline" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="timeline" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       Project Timeline
                     </label>
                     <select
@@ -271,7 +271,7 @@ export function ContactForm() {
                       name="timeline"
                       value={formData.timeline}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
                     >
                       <option value="">Select timeline</option>
                       {timelines.map((timeline) => (
@@ -284,7 +284,7 @@ export function ContactForm() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="message" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                     Project Description *
                   </label>
                   <textarea
@@ -294,7 +294,7 @@ export function ContactForm() {
                     onChange={handleInputChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200 resize-none"
+                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200 resize-none"
                     placeholder="Tell us about your project, goals, and any specific requirements..."
                   />
                 </div>
@@ -317,17 +317,17 @@ export function ContactForm() {
                   disabled={isSubmitting}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full px-8 py-4 bg-gradient-to-r from-electric-blue to-neon-purple text-white font-semibold rounded-xl shadow-neon hover:shadow-neon-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                  className="w-full px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-electric-blue to-neon-purple text-white font-semibold text-sm sm:text-base rounded-xl shadow-neon hover:shadow-neon-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
                 >
                   {isSubmitting ? (
                     <>
-                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-3"></div>
+                      <div className="w-4 h-4 sm:w-5 sm:h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2 sm:mr-3"></div>
                       Sending...
                     </>
                   ) : (
                     <>
                       Send Message
-                      <PaperAirplaneIcon className="w-5 h-5 ml-2" />
+                      <PaperAirplaneIcon className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
                     </>
                   )}
                 </motion.button>
