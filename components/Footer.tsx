@@ -14,30 +14,26 @@ const footerNavigation = {
   services: [
     { name: 'Custom Development', href: '/services/custom-development' },
     { name: 'Cloud Solutions', href: '/services/cloud-solutions' },
-    { name: 'AI Integration', href: '/services/ai-integration' },
-    { name: 'Mobile Apps', href: '/services/mobile-apps' },
+    { name: 'All Services', href: '/services' },
   ],
   products: [
-    { name: 'SaaS Tools', href: '/products/saas-tools' },
-    { name: 'Analytics Platform', href: '/products/analytics' },
-    { name: 'Enterprise Solutions', href: '/products/enterprise' },
+    { name: 'BakeCurry Manager', href: '/products#bakecurry-manager' },
+    { name: 'VK Travels System', href: '/products#vk-travels-system' },
+    { name: 'Pharmacy Management', href: '/products#pharmacy-management-pro' },
+    { name: 'View All Products', href: '/products' },
   ],
   company: [
     { name: 'About Us', href: '/about' },
-    { name: 'Our Team', href: '/about#team' },
-    { name: 'Careers', href: '/careers' },
+    { name: 'Portfolio', href: '/portfolio' },
     { name: 'Contact', href: '/contact' },
   ],
   resources: [
     { name: 'Blog', href: '/blog' },
-    { name: 'Case Studies', href: '/portfolio' },
-    { name: 'Documentation', href: '/docs' },
-    { name: 'Support', href: '/support' },
+    { name: 'Support', href: '/contact' },
   ],
   legal: [
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms of Service', href: '/terms' },
-    { name: 'Cookie Policy', href: '/cookies' },
   ],
 };
 
@@ -76,19 +72,20 @@ export default function Footer() {
                 </Link>
                 
                 <p className="text-gray-600 mb-6 max-w-md">
-                  Accelerate your digital future 5X faster with cutting-edge software solutions, 
-                  AI integration, and cloud technologies that transform businesses.
+                  Professional software development company in Jaffna, Sri Lanka. 
+                  We build custom applications for businesses including bakeries, travel agencies, 
+                  pharmacies, and more.
                 </p>
                 
                 {/* Contact Info */}
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3 text-gray-600">
                     <MapPinIcon className="w-5 h-5 text-electric-blue" />
-                    <span>San Francisco, CA</span>
+                    <span>Jaffna, Sri Lanka</span>
                   </div>
                   <div className="flex items-center space-x-3 text-gray-600">
                     <PhoneIcon className="w-5 h-5 text-electric-blue" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+94 76 895 4797</span>
                   </div>
                   <div className="flex items-center space-x-3 text-gray-600">
                     <EnvelopeIcon className="w-5 h-5 text-electric-blue" />
