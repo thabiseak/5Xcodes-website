@@ -20,7 +20,7 @@ export function PortfolioCTA() {
       icon: PhoneIcon,
       title: 'Call Us',
       description: 'Speak with our project managers',
-      action: '+1 (555) 123-4567',
+      action: '+94 76 895 4797',
       color: 'from-blue-400 to-cyan-500'
     },
     {

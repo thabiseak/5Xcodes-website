@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { Footer } from '@/components/Footer'
+import Footer from '@/components/Footer'
 
 describe('Footer', () => {
   it('renders the footer with company information', () => {
@@ -52,7 +52,7 @@ describe('Footer', () => {
   it('renders contact information', () => {
     render(<Footer />)
     
-    expect(screen.getByText(/contact@5xcodes.com/i)).toBeInDocument()
+  expect(screen.getByText(/contact@5xcodes.com/i)).toBeInTheDocument()
     expect(screen.getByText(/\+1 \(555\) 123-4567/i)).toBeInTheDocument()
   })
 

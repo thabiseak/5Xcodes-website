@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import { Header } from '@/components/Header'
+import Header from '@/components/Header'
 
 // Mock next-themes
 jest.mock('next-themes', () => ({
@@ -8,8 +8,7 @@ jest.mock('next-themes', () => ({
     setTheme: jest.fn(),
     resolvedTheme: 'light',
   }),
-}))
-
+}));
 describe('Header', () => {
   it('renders the header with navigation links', () => {
     render(<Header />)

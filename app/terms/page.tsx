@@ -122,8 +122,8 @@ export default function TermsPage() {
                 9. Governing Law
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                This agreement shall be governed by and construed in accordance with the laws of the 
-                State of California, without regard to its conflict of law provisions.
+                This agreement shall be governed by and construed in accordance with the laws of Sri Lanka
+                and any applicable local laws, without regard to its conflict of law provisions.
               </p>
             </section>
 

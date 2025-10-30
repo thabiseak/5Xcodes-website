@@ -169,7 +169,7 @@ export function ContactForm() {
                       onChange={handleInputChange}
                       required
                       className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
-                      placeholder="Sivakumar Sivanajamoorthy"
+                      placeholder="Sivakumar Sivajanamoorthy"
                     />
                   </div>
                   <div>
@@ -215,7 +215,7 @@ export function ContactForm() {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+94 76 895 4797"
                     />
                   </div>
                 </div>

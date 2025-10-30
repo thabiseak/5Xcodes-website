@@ -158,7 +158,7 @@ export function CTA() {
               
               <button className="group flex items-center px-8 py-4 bg-white/20 backdrop-blur-sm text-white font-semibold rounded-xl border border-white/30 hover:bg-white/30 transition-all duration-300 hover:scale-105">
                 <PhoneIcon className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300" />
-                Call Now: +1 (555) 123-4567
+                Call Now: +94 76 895 4797
               </button>
             </div>
           </div>
