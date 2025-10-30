@@ -169,7 +169,7 @@ export function ContactForm() {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
-                      placeholder="John Doe"
+                      placeholder="Sivakumar Sivanajamoorthy"
                     />
                   </div>
                   <div>
@@ -184,7 +184,7 @@ export function ContactForm() {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-200"
-                      placeholder="john@company.com"
+                      placeholder="sivakumar@company.com"
                     />
                   </div>
                 </div>
@@ -380,7 +380,7 @@ export function ContactForm() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Call Us</div>
-                    <div className="text-gray-600">+1 (555) 123-4567</div>
+                    <div className="text-gray-600">+94 76 895 4797</div>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -403,7 +403,7 @@ export function ContactForm() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Visit Us</div>
-                    <div className="text-gray-600">San Francisco, CA</div>
+                    <div className="text-gray-600">Jaffna, Sri Lanka</div>
                   </div>
                 </div>
               </div>
