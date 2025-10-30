@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: PhoneIcon,
     title: 'Phone',
-    value: '+1 (555) 123-4567',
-    description: 'Mon-Fri 9AM-6PM PST',
+    value: '+94 76 895 4797',
+    description: 'Mon-Sat 9AM-6PM IST',
     color: 'from-blue-500 to-cyan-500'
   },
   {
@@ -27,15 +27,15 @@ const contactInfo = [
   {
     icon: MapPinIcon,
     title: 'Office',
-    value: 'San Francisco, CA',
-    description: '123 Innovation Street',
+    value: 'Jaffna, Sri Lanka',
+    description: 'Northern Province',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: ClockIcon,
     title: 'Hours',
-    value: '24/7 Support',
-    description: 'Always here to help',
+    value: 'Mon-Sat 9AM-6PM',
+    description: 'Remote support available',
     color: 'from-orange-500 to-red-500'
   }
 ];

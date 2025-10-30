@@ -25,7 +25,7 @@ export function MapSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Visit our headquarters in San Francisco or connect with us remotely. 
+            Visit our office in Jaffna, Sri Lanka or connect with us remotely. 
             We're always here to help with your digital transformation needs.
           </p>
         </motion.div>
@@ -38,22 +38,18 @@ export function MapSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl h-96 flex items-center justify-center shadow-glass border border-white/20">
-              {/* Placeholder for Google Maps */}
-              <div className="text-center">
-                <MapPinIcon className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-gray-600 mb-2">
-                  Interactive Map
-                </h3>
-                <p className="text-gray-500">
-                  Google Maps integration would be here
-                </p>
-                <div className="mt-4">
-                  <button className="px-6 py-3 bg-gradient-to-r from-electric-blue to-neon-purple text-white font-semibold rounded-xl hover:shadow-neon transition-all duration-300">
-                    View on Google Maps
-                  </button>
-                </div>
-              </div>
+            <div className="bg-white rounded-2xl overflow-hidden h-96 shadow-glass border border-white/20">
+              {/* Google Maps Embed for Jaffna, Sri Lanka */}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63041.71776589574!2d80.0008!3d9.6615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe54aaaaaaec29%3A0x1f0e4c505fcdf77a!2sJaffna%2C%20Sri%20Lanka!5e0!3m2!1sen!2s!4v1234567890"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="5Xcodes Office Location - Jaffna, Sri Lanka"
+              ></iframe>
             </div>
           </motion.div>
 
@@ -72,27 +68,27 @@ export function MapSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    Headquarters
+                    Office Location
                   </h3>
                   <p className="text-gray-600">
-                    San Francisco, California
+                    Jaffna, Sri Lanka
                   </p>
                 </div>
               </div>
               
               <div className="space-y-4">
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Address</div>
+                  <div className="font-semibold text-gray-900 mb-1">Location</div>
                   <div className="text-gray-600">
-                    123 Innovation Street<br />
-                    San Francisco, CA 94105<br />
-                    United States
+                    Jaffna<br />
+                    Northern Province<br />
+                    Sri Lanka
                   </div>
                 </div>
                 
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Phone</div>
-                  <div className="text-gray-600">+1 (555) 123-4567</div>
+                  <div className="text-gray-600">+94 76 895 4797</div>
                 </div>
                 
                 <div>
@@ -120,12 +116,8 @@ export function MapSection() {
               
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-700">Monday - Friday</span>
-                  <span className="font-semibold text-gray-900">9:00 AM - 6:00 PM PST</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-700">Saturday</span>
-                  <span className="font-semibold text-gray-900">10:00 AM - 4:00 PM PST</span>
+                  <span className="text-gray-700">Monday - Saturday</span>
+                  <span className="font-semibold text-gray-900">9:00 AM - 6:00 PM IST</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-700">Sunday</span>
@@ -134,7 +126,7 @@ export function MapSection() {
                 <div className="pt-3 border-t border-white/20">
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                    <span className="text-green-700 font-semibold">24/7 Support Available</span>
+                    <span className="text-green-700 font-semibold">Remote Support Available</span>
                   </div>
                 </div>
               </div>
@@ -155,7 +147,7 @@ export function MapSection() {
                   <PhoneIcon className="w-5 h-5 mr-3" />
                   <div className="text-left">
                     <div className="font-semibold">Call Us Now</div>
-                    <div className="text-sm opacity-90">+1 (555) 123-4567</div>
+                    <div className="text-sm opacity-90">+94 76 895 4797</div>
                   </div>
                 </motion.button>
                 
