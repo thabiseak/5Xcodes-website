@@ -101,7 +101,7 @@ export function ClientLogos() {
               animate={inView ? { scale: 1 } : {}}
               transition={{ duration: 0.8, delay: 0.7 }}
             >
-              500+
+              5+
             </motion.div>
             <div className="text-slate-600 dark:text-slate-400 font-medium">
               Projects Completed

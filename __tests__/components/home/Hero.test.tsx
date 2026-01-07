@@ -31,7 +31,7 @@ describe('Hero', () => {
   it('renders the stats section', () => {
     render(<Hero />)
     
-    expect(screen.getByText('500+')).toBeInTheDocument()
+    expect(screen.getByText('5+')).toBeInTheDocument()
     expect(screen.getByText('Projects Delivered')).toBeInTheDocument()
     expect(screen.getByText('99%')).toBeInTheDocument()
     expect(screen.getByText('Client Satisfaction')).toBeInTheDocument()

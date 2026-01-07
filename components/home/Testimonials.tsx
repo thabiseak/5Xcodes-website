@@ -177,7 +177,7 @@ export function Testimonials() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
           {[
-            { number: '500+', label: 'Happy Clients' },
+            { number: '5+', label: 'Happy Clients' },
             { number: '99%', label: 'Satisfaction Rate' },
             { number: '5X', label: 'Faster Delivery' },
             { number: '24/7', label: 'Support Available' },

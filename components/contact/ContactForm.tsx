@@ -352,7 +352,7 @@ export function ContactForm() {
                   'Transparent pricing with no hidden costs',
                   'Dedicated project manager for each engagement',
                   '24/7 support and maintenance',
-                  'Proven track record with 500+ successful projects',
+                  'Proven track record with 5+ successful projects',
                   'Cutting-edge technologies and best practices'
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-start">
